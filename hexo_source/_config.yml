@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 问尘’s Note
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+author: 问尘
 language: en
 timezone: ''
 
@@ -93,9 +93,11 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: Butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: 'git'
+  repo: 'https://github.com/lyron/lyron.github.io.git'
+  branch: 'master'
